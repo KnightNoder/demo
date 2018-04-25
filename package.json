@@ -9,15 +9,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.2",
+    "change-case": "^3.0.2",
+    "debug": "^3.1.0",
     "docker": "^1.0.0",
     "ejs": "^2.5.9",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.11.0",
     "express": "^4.16.3",
-    "orm": "^4.0.2",
+    "express-session": "^1.15.6",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.3",
+    "orm": "^3.2.4",
     "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
     "pg": "^7.4.1"
   }
 }
